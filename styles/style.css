@@ -102,3 +102,10 @@ img{
 .list_items{
 	margin: 50px;
 }
+h2{
+	font-size: 1.2em;
+}
+.form_sell{
+	margin: 100px;
+	padding: 10%;
+}

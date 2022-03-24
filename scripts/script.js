@@ -43,5 +43,12 @@ form_buscar.addEventListener('keyup', filtrar);
 filtrar();
 
 function alertaCompra(){
-    alert("Producto no disponible");
+    
+    var formSell = document.querySelector("#fomulario_Compra");
+    if(formSell.style.display == "block"){
+        formSell.style.display = "none"
+    }else{
+        formSell.style.display = "block"
+    }
+    
 }
